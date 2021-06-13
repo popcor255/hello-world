@@ -1,0 +1,10 @@
+[requires]
+poco/1.8.1
+boost/1.76.0
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> bin
+bin, *.dylib -> bin
